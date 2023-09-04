@@ -1,0 +1,16 @@
+server.servlet.context-path: /api
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/contact_list
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+jwt:
+  secret: "35266c9762928ff7bbd5dc76ed6314321fa0f0bcc9d04b2564895fe0bcfa7dd6"
