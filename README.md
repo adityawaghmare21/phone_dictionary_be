@@ -95,6 +95,8 @@ pgAdmin is a popular open-source administration and management tool for PostgreS
 
 ## Running the Project
 
+### Method 1
+
 - Open the project in IntelliJ IDEA.
 - Build and run the project from the IDE, or you can use the following command to run it from the command line:
 
@@ -104,7 +106,7 @@ pgAdmin is a popular open-source administration and management tool for PostgreS
 
 - The Spring Boot application will start, and you can access it in your web browser at `http://localhost:8080`.
 
-  OR
+### Method 2
 
 - Go to src/main/java/com.example.contactlist/ContactListApplication
 - And run the ContactListApplication class
